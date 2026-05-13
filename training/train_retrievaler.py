@@ -1,6 +1,9 @@
+import sys
+import os
 import argparse
 import torch
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from misc.utils import TrainingParams
 from training.trainer_retrievaler import RetrievalerTrainer
 

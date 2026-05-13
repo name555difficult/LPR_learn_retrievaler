@@ -136,3 +136,4 @@ wandb/
 *_results.txt*
 *.pickle
 data/
+weights/
